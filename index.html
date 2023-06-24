@@ -1,0 +1,48 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="header-div">
+                    <h1 class="header-txt" id="name">John's Diner</h1>
+                    <p class="header-txt" id="header-txt">The best burgers and pizza in town.</p>
+                </div>
+                <img src="images/burger.jpg">
+            </header>
+            <section>
+                <div class="item-list" id="item-list">
+                </div>
+            </section>
+            <section>
+                <div class="checkout" id="checkout">
+                    <h3 id="order">Your order</h3>
+                    <div class="checkout-items" id="checkout-items">
+                    </div>
+                    <div class="total">
+                        <p class="checkout-total">Total price:</p>
+                        <p id="total-price"></p>
+                    </div>
+                    <button id="complete">Complete order</button>
+                </div>
+            </section>
+            <div class="modal" id="modal">
+                <div class="modal-form-container" id="modal-form-container">
+                    <h3 class="details">Enter card details</h3>
+                    <form>
+                        <input type="text" id="fname" name="fname" placeholder="Enter your name" required>
+                        <input type="text" id="cnum" name="cnum" placeholder="Enter card number" required>
+                        <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </main>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

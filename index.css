@@ -1,0 +1,167 @@
+body {
+    margin: auto;
+    font-family: 'Smythe', cursive;
+    max-width: 600px;
+    position: relative;
+}
+
+.header-div{
+    position: relative;
+}
+
+img{
+    width: 600px;
+    height: 167px;
+}
+
+.image{
+    font-size: 65px;
+}
+
+.menu-item{
+    display: flex;
+    margin: 0 35px;
+    border-bottom: solid #D2D2D2 1px;
+}
+
+.specs{
+    flex-direction: column;
+    margin: 30px 20px;
+}
+
+.add-btn{
+    margin: 67px 0 auto auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+}
+
+.checkout{
+    color: #0E0E0E;
+    margin: 0 35px;
+    display: none;
+    font-size: 28px;
+}
+
+.total{
+    border-top: solid #393333 1px;
+}
+
+.remove{
+    margin: 15px auto auto 0;
+    border: none;
+    background: none;
+    font-style: Verdana;
+    font-size: 12px;
+    color: #BBBBBB;
+    cursor: pointer;
+}
+
+#complete{
+    color: white;
+    background-color: #16DB99;
+    border: none;
+    margin: auto;
+    width: 510px;
+    height: 60px;
+    font-size: 16px;
+    font-style: Verdana;
+    font-weight: bold;
+}
+
+.modal{
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 510px;
+    height: 450px;
+    display: none;
+    box-shadow: 0px -2px 20px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+form input{
+    margin: 10px 0;
+    padding: 22px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid #757575 1px;
+}
+
+/* text */
+
+.header-txt{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 23px;
+    margin-left: 40px;
+}
+
+#name{
+    font-size: 39px;
+}
+
+#header-txt{
+    top: 62px;
+}
+
+.name{
+    margin: 30px 0 0 0;
+    font-size: 28px;
+    color: #000000;
+}
+
+.ingredients{
+    margin: 0;
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.price{
+    margin: 8px 0 0 0;
+    font-size: 20;
+    color: #000000;
+    font-weight: bold;
+}
+
+#order{
+    text-align: center;
+}
+
+.order-item,
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-item #order-item{
+    margin-top: 0;
+    margin-bottom: 0; 
+    padding: 0;
+}
+
+.checkout-total{
+    margin-top: 10px;
+}
+
+.details{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 24px;
+}
